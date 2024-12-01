@@ -2,6 +2,8 @@ I  teach courses on international relations, international political economy, g
 
 Courses that I have developed and/or taught at undergraduate and graduate level include:
 
+- Global Financial Governance
+- Global Economic Governance in the Digital Era
 - Global Economic Governance, Ethics and Technology
 - Advanced Qualitative Methods
 - International Political Economy

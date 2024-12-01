@@ -36,6 +36,7 @@ export const Footer = () => (
           Policy<br />Technical University of Munich<br />Richard-Wagner-Stra&szlig;e
           1, 80333 Monaco Di Baveria, Germany<br />florence.dafe@hfp.tum.de
         </p>
+        <p><a href="https://www.linkedin.com/in/florence-dafe-3b57b014b/?originalSubdomain=uk" target="_blank" className="linkedin-link">LinkedIn</a></p>
         <p><a href="datenschutz.html">Datenschutzerklärung</a></p>
       </div>
     </footer>

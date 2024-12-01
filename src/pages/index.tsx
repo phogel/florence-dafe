@@ -1,8 +1,6 @@
 import React from "react";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
-import Template from "../components/Template";
-import { Title } from "../components/Title";
 import flo from "../images/florencedafe.jpg";
 
 const IndexPage = () => {
@@ -41,7 +39,7 @@ const IndexPage = () => {
                 of International Relations at the London School of Economics and
                 Political Science (LSE) and lecturer in International Political
                 Economy at City, University of London. I am also an associate
-                researcher at the German Development Institute.
+                researcher at the German Development Institute and a honorary research fellow at the University of Warwick’s Centre for the Study of Globalisation and Regionalisation.
               </p>
               <p>
                 You can find a copy of my CV{" "}
@@ -50,8 +48,6 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-        <Title>News</Title>
-        <Template blank title="News" page="news" twoCols />
       </article>
       <Footer />
     </>

@@ -66,6 +66,11 @@ nav ul, footer ul {
   list-style-type: none;
 }
 
+a.linkedin-link {
+  color: #0077b5;
+  font-weight: bold;
+}
+
 @font-face {
   font-family: 'Bubbler One';
   font-style: normal;
