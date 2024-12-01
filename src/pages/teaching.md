@@ -1,11 +1,3 @@
-import { Title } from '../components/Title'
-import { Header } from '../components/Header'
-import { Footer } from '../components/Footer'
-import { Article } from '../components/Article'
-
-<Header />
-<Article title="Teaching">
-
 I  teach courses on international relations, international political economy, global governance and research methods.
 
 Courses that I have developed and/or taught at undergraduate and graduate level include:
@@ -21,6 +13,3 @@ Courses that I have developed and/or taught at undergraduate and graduate level 
 - International Organizations
 
 Send me e-mail if you would like to know more.
-
-</Article>
-<Footer />

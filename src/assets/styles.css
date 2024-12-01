@@ -62,7 +62,7 @@ two-cols {
   width: 100%;
 }
 
-ul {
+nav ul, footer ul {
   list-style-type: none;
 }
 

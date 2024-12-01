@@ -1,13 +1,58 @@
 import React from "react";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
+import Template from "../components/Template";
+import { Title } from "../components/Title";
+import flo from "../images/florencedafe.jpg";
 
 const IndexPage = () => {
   return (
     <>
       <Header />
+      <article>
 
-      <h1>Hello</h1>
+        <div className="hundydundy">
+          <div className="two-cols blockset">
+            <div className="fiftyfifty">
+              <img src={flo} className="front-image" />
+            </div>
+            <div className="fiftyfifty">
+              <p></p>
+              <p>
+                Welcome! I am a political economist at the Chair of European and
+                Global Governance of the Hochschule f&uuml;r Politik /TUM School
+                of Governance at the Technical University of Munich (TUM). My
+                research and teaching cover a number of themes related to
+                international political economy and comparative political economy,
+                with a particular focus on global financial governance.
+              </p>
+              <p>
+                My research interests revolve around finance and development,
+                especially the domestic and external political constraints that
+                governments in developing countries face in governing their
+                financial sectors. The question which drives my research is how
+                much policy space governments in developing countries have in
+                governing their financial sectors in a context of globalisation
+                and financialisation.
+              </p>
+              <p>
+                Prior to joining the Chair of European and Global Governance, I
+                was a Fellow in International Political Economy at the Department
+                of International Relations at the London School of Economics and
+                Political Science (LSE) and lecturer in International Political
+                Economy at City, University of London. I am also an associate
+                researcher at the German Development Institute.
+              </p>
+              <p>
+                You can find a copy of my CV{" "}
+                <a href="cv/CV Florence Dafe_web1024.pdf">here</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+        <Title>News</Title>
+        <Template blank title="News" page="news" twoCols />
+      </article>
       <Footer />
     </>
   )

@@ -1,11 +1,5 @@
-import { Title } from '../components/Title'
-import { Header } from '../components/Header'
-import { Footer } from '../components/Footer'
-
-<Header />
-<Title>Contact</Title>
-
 **Postal**
+
 TUM School of Governance
 Bavarian School of Public Policy
 Technical University of Munich
@@ -14,8 +8,7 @@ Richard-Wagner-Straße 1
 Germany
 
 **E-Mail**
+
 florence.dafe@hfp.tum.de
 
 website created by [codekommando.de](https://www.codekommando.de/ "codekommando.de")
-
-<Footer />
