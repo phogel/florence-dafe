@@ -10,7 +10,7 @@ const links = [
 ];
 
 export const Header = () => {
-  const currentPage = window.location.pathname;
+  const currentPage = typeof window !== "undefined" ? window.location.pathname : "";
 
   return (
     <menu>
