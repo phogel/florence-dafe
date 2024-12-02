@@ -1,11 +1,11 @@
 **Postal**
 
-TUM School of Governance
-Bavarian School of Public Policy
-Technical University of Munich
-Richard-Wagner-Straße 1
-80333 Munich
-Germany
+TUM School of Governance\
+Bavarian School of Public Policy\
+Technical University of Munich\
+Richard-Wagner-Straße 1\
+80333 Munich\
+Germany\
 
 **E-Mail**
 
