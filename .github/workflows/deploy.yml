@@ -31,4 +31,4 @@ jobs:
           server: ${{ vars.FTP_HOST }}
           username: ${{ vars.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public
+          local-dir: ./public/
