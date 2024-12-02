@@ -14,7 +14,7 @@ export const Header = () => {
 
   return (
     <menu>
-      <h1 className="florence" > FLORENCE DAFE </h1>
+      <p className="florence"> FLORENCE DAFE </p>
       <nav>
         {links.map(({ title, href }) => {
           const isActive = currentPage === href;

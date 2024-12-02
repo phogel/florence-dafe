@@ -2,13 +2,14 @@ import React from "react";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import flo from "../images/florencedafe.jpg";
+import { SEO } from "../components/SEO";
 
 const IndexPage = () => {
   return (
     <>
       <Header />
       <article>
-
+        <hr />
         <div className="hundydundy">
           <div className="two-cols blockset">
             <div className="fiftyfifty">
@@ -55,3 +56,7 @@ const IndexPage = () => {
 }
 
 export default IndexPage;
+
+export const Head = () => (
+  <SEO title="Home" />
+)

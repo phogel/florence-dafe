@@ -176,12 +176,14 @@ menu {
 }
 
 menu .florence {
+  font-family: 'Bubbler One';
   text-align: center;
   font-size: 3em;
-  letter-spacing: .25em;
+  letter-spacing: .20em;
   margin-bottom: 60px;
   margin-top: 60px;
   line-height: 1em;
+  color: #555;
 }
 
 menu nav {
@@ -229,6 +231,10 @@ html, body {
   line-height: 1.8em;
 }
 
+h1 {
+  color: #777;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Bubbler One';
   margin: 0;
@@ -255,9 +261,10 @@ p {
 }
 
 hr {
-  border: none;
-  border-top: 1px solid #d8d8d8;
-  max-width: 360px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(90deg, transparent, #d8d8d8, transparent);
+  max-width: 790px;
   width: 100%;
   margin: auto;
   margin-top: 20px;
