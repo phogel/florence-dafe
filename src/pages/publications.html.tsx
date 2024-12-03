@@ -3,7 +3,7 @@ import Template from '../components/Template';
 import { SEO } from '../components/SEO';
 
 export const Publications = () => {
-  return <Template title="Publications" page="publications" />;
+  return <Template title="Publications" page="publications" twoCols />;
 };
 
 export default Publications;
