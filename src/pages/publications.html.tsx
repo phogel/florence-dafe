@@ -1,14 +1,11 @@
-import React from 'react'
+import React from 'react';
 import Template from '../components/Template';
 import { SEO } from '../components/SEO';
 
 export const Publications = () => {
-  return <Template title="Publications" page="publications" twoCols />
+  return <Template title="Publications" page="publications" />;
 };
 
 export default Publications;
 
-export const Head = () => (
-  <SEO title="Publications" />
-)
-
+export const Head = () => <SEO title="Publications" />;
