@@ -10,7 +10,7 @@ Germany
 
 E-Mail florence.dafe@hfp.tum.de
 
-### Ihre Betroffenenrechte
+### Ihre Betroffenenrechte 
 
 Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:
 
