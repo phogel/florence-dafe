@@ -1,6 +1,6 @@
 ## Journal articles
 
-Forthcoming. Comparative Capitalisms, Financial Subordination and Patient Capital in Developing and Emerging Economies: Insights from Kenya. _Socio-Economic Review_ (with R.Upadhyaya).
+2024\. [Comparative Capitalisms, Financial Subordination and Patient Capital in Developing and Emerging Economies: Insights from Kenya](https://doi.org/10.1093/ser/mwae074). _Socio-Economic Review_ (with R.Upadhyaya).
 
 2023\. [Local Currency Bond Markets in Africa: Resilience and Subordination](https://onlinelibrary.wiley.com/doi/10.1111/dech.12797) _Development and Change_, 54: 1031-1064 (with A. Kaltenbrunner, I. Kvangraven and I. Weigandi).
 
