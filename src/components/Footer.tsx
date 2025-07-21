@@ -46,7 +46,7 @@ export const Footer = () => (
           <br />
           Technical University of Munich
           <br />
-          Richard-Wagner-Stra&szlig;e 1, 80333 Monaco Di Baveria, Germany
+          Richard-Wagner-Stra&szlig;e 1, 80333 München, Germany
           <br />
           florence.dafe@hfp.tum.de
         </p>
