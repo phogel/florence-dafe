@@ -37,7 +37,7 @@ const IndexPage = () => {
                 University of Warwick’s Centre for the Study of Globalisation and Regionalisation.
               </p>
               <p>
-                You can find a copy of my CV <a href="cv/CV Florence Dafe_web1024.pdf">here</a>.
+                You can find a copy of my CV <a href="cv/cv-florence-dafe.pdf">here</a>.
               </p>
             </div>
           </div>
