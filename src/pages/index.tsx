@@ -34,7 +34,7 @@ const IndexPage = () => {
                 Economy at the Department of International Relations at the London School of Economics and Political
                 Science (LSE) and lecturer in International Political Economy at City, University of London. I am also
                 an associate researcher at the German Institute of Development and Sustainability (IDOS) and a honorary research fellow at the
-                University of Warwick’s Centre for the Study of Globalisation and Regionalisation.
+                University of Warwick’s Centre for the Study of Globalisation and Regionalisation. Recently, I have been accepted into the DFG’s Heisenberg Programme. 
               </p>
               <p>
                 You can find a copy of my CV <a href="cv/cv-florence-dafe.pdf">here</a>.
