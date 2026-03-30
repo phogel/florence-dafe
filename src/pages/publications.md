@@ -1,8 +1,9 @@
 ## Journal articles
+2026\. [The political power of digital multinational companies in an era of geo-technological competition](https://doi.org/10.1177/10245294261426516). Review of International Political Economy, 1–22 (with E.C. Heldt).
 
-Forthcoming. Digital empowerment: Banks and the rise of FinTechs in Kenya and Nigeria. Competition & Change (with R. Upadhyaya).
+2026\. [Digital empowerment: Banks and the rise of FinTechs in Kenya and Nigeria](https://doi.org/10.1177/10245294261426516). Competition & Change, 0(0) (with R. Upadhyaya).
 
-Forthcoming. Platform disempowerment: business power and the taxation of digital financial services. New Political Economy (with M. Hearson and M. Abounabhan).
+2026\. [Platform disempowerment: business power and the taxation of digital financial services](https://doi.org/10.1080/13563467.2025.2611877). New Political Economy, 1–19. (with M. Hearson and M. Abounabhan).
 
 2024\. [Comparative Capitalisms, Financial Subordination and Patient Capital in Developing and Emerging Economies: Insights from Kenya](https://doi.org/10.1093/ser/mwae074). _Socio-Economic Review_ (with R. Upadhyaya).
 
