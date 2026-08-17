@@ -53,6 +53,8 @@ article {
 
 .front-image {
   width: 100%;
+  /* Required alongside the img width/height attributes, so scaling keeps the aspect ratio. */
+  height: auto;
 }
 
 nav ul,

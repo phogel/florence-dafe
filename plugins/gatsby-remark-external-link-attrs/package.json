@@ -1,0 +1,13 @@
+{
+  "name": "gatsby-remark-external-link-attrs",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "description": "Adds target and rel attributes to external links in markdown.",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "remark"
+  ],
+  "license": "MIT"
+}
