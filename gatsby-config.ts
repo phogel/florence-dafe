@@ -7,10 +7,7 @@ const config: GatsbyConfig = {
   },
   graphqlTypegen: true,
   plugins: [
-    'gatsby-plugin-image',
     'gatsby-plugin-mdx',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -32,7 +29,7 @@ const config: GatsbyConfig = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-external-links',
+            resolve: 'gatsby-remark-external-link-attrs',
             options: {
               target: '_blank',
               rel: 'noopener noreferrer',

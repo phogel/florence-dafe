@@ -3,7 +3,8 @@ import React from 'react';
 export const SEO = ({ title }: { title: string }) => {
   return (
     <>
-      <title>{title} | Florence Dafe</title>
+      {/* React 19 requires a single text child in <title>; interpolation must be pre-joined. */}
+      <title>{`${title} | Florence Dafe`}</title>
       <meta name="title" content="Florence Dafe from the Technical University of Munich" />
       <meta
         name="description"

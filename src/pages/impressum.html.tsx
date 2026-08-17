@@ -3,7 +3,7 @@ import Template from '../components/Template';
 import { SEO } from '../components/SEO';
 
 export const Impressum = () => {
-  return <Template title="Impressum" page="contact" />;
+  return <Template title="Impressum" page="impressum" />;
 };
 
 export default Impressum;

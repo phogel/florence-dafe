@@ -1,6 +1,8 @@
 import React from 'react';
+import { footerNavLinks, PageId } from './navLinks';
 
-export const Footer = () => (
+/** The entry for the current page renders as inert text instead of a link. */
+export const Footer = ({ activePage }: { activePage?: PageId }) => (
   <>
     <div className="hundyhundy">
       <h1></h1>
@@ -10,32 +12,19 @@ export const Footer = () => (
     <footer className="hundydundy two-cols">
       <div className="fiftyfifty rightalign">
         <ul className="fiftyfifty">
-          <li>
-            <span className="active-page">Home</span>
-          </li>
-          <li>
-            <a href="publications.html" title="Publications">
-              Publications
-            </a>
-          </li>
-          <li>
-            <a href="research_in_progress.html" title="Research in Progress">
-              Research in Progress
-            </a>
-          </li>
-          <li>
-            <a href="teaching.html" title="Teaching">
-              Teaching
-            </a>
-          </li>
-          <li>
-            <a href="contact.html" title="Contact">
-              Contact
-            </a>
-          </li>
-          <li>
-            <a href="impressum.html">Impressum</a>
-          </li>
+          {footerNavLinks.map(({ title, href, page }) =>
+            page === activePage ? (
+              <li key={page}>
+                <span className="active-page">{title}</span>
+              </li>
+            ) : (
+              <li key={page}>
+                <a href={href} title={title}>
+                  {title}
+                </a>
+              </li>
+            ),
+          )}
         </ul>
       </div>
       <div className="fiftyfifty">
@@ -60,7 +49,11 @@ export const Footer = () => (
           </a>
         </p>
         <p>
-          <a href="datenschutz.html">Datenschutzerklärung</a>
+          {activePage === 'datenschutz' ? (
+            <span className="active-page">Datenschutzerklärung</span>
+          ) : (
+            <a href="datenschutz.html">Datenschutzerklärung</a>
+          )}
         </p>
       </div>
     </footer>

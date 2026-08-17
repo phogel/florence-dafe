@@ -10,30 +10,37 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "yarn typecheck && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@mdx-js/react": "^3.1.1",
-    "gatsby": "^5.15.0",
-    "gatsby-plugin-image": "^3.15.0",
-    "gatsby-plugin-mdx": "^5.15.0",
-    "gatsby-plugin-sharp": "^5.15.0",
-    "gatsby-remark-external-links": "^0.0.4",
-    "gatsby-source-filesystem": "^5.15.0",
-    "gatsby-transformer-remark": "^6.15.0",
-    "gatsby-transformer-sharp": "^5.15.0",
-    "react": "18",
-    "react-dom": "18"
+    "gatsby": "^5.16.1",
+    "gatsby-plugin-mdx": "^5.16.0",
+    "gatsby-source-filesystem": "^5.16.0",
+    "gatsby-transformer-remark": "^6.16.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "@types/node": "^24.7.0",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.1",
-    "prettier": "3.6.2",
-    "typescript": "^5.9.3"
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "prettier": "3.9.6",
+    "typescript": "^7.0.2"
   },
-  "packageManager": "yarn@4.5.3"
+  "dependenciesMeta": {
+    "@parcel/watcher": {
+      "built": true
+    },
+    "lmdb": {
+      "built": true
+    },
+    "msgpackr-extract": {
+      "built": true
+    }
+  },
+  "packageManager": "yarn@4.18.0"
 }

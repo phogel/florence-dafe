@@ -3,3 +3,10 @@ node_modules/
 public
 src/gatsby-types.d.ts
 .DS_Store
+
+# Yarn: keep the pinned release, ignore local install artifacts.
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins

@@ -3,17 +3,11 @@ import { graphql, useStaticQuery } from 'gatsby';
 import { Title } from '../components/Title';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
+import { PageId } from './navLinks';
 
 type TemplateProps = {
-  page:
-    | 'publications'
-    | 'research_in_progress'
-    | 'teaching'
-    | 'index'
-    | 'news'
-    | 'datenschutz'
-    | 'impressum'
-    | 'contact';
+  /** Which markdown file supplies the content (`<page>.md`), and which nav entry to highlight. */
+  page: PageId;
   title: string;
   blockSet?: boolean;
   twoCols?: boolean;
@@ -52,16 +46,28 @@ export default function Template({ page, title, blockSet = false, twoCols = fals
 
   if (blank) return <>{content}</>;
 
-  return <PageWrapper title={title}>{content}</PageWrapper>;
+  return (
+    <PageWrapper title={title} activePage={page}>
+      {content}
+    </PageWrapper>
+  );
 }
 
-const PageWrapper = ({ children, title }: { children: React.ReactNode; title: string }) => {
+const PageWrapper = ({
+  children,
+  title,
+  activePage,
+}: {
+  children: React.ReactNode;
+  title: string;
+  activePage?: PageId;
+}) => {
   return (
     <>
-      <Header />
+      <Header activePage={activePage} />
       <Title>{title}</Title>
       <article>{children}</article>
-      <Footer />
+      <Footer activePage={activePage} />
     </>
   );
 };

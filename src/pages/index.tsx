@@ -7,13 +7,14 @@ import { SEO } from '../components/SEO';
 const IndexPage = () => {
   return (
     <>
-      <Header />
+      <Header activePage="index" />
       <article>
         <hr />
         <div className="hundydundy">
           <div className="two-cols blockset">
             <div className="fiftyfifty">
-              <img src={flo} className="front-image" />
+              {/* Intrinsic size of the source file; set so the browser reserves space and does not shift layout. */}
+              <img src={flo} className="front-image" width={500} height={333} alt="Portrait of Florence Dafe" />
             </div>
             <div className="fiftyfifty">
               <p></p>
@@ -33,8 +34,9 @@ const IndexPage = () => {
                 Prior to joining the Chair of European and Global Governance, I was a Fellow in International Political
                 Economy at the Department of International Relations at the London School of Economics and Political
                 Science (LSE) and lecturer in International Political Economy at City, University of London. I am also
-                an associate researcher at the German Institute of Development and Sustainability (IDOS) and a honorary research fellow at the
-                University of Warwick’s Centre for the Study of Globalisation and Regionalisation. Recently, I have been accepted into the DFG’s Heisenberg Programme. 
+                an associate researcher at the German Institute of Development and Sustainability (IDOS) and a honorary
+                research fellow at the University of Warwick’s Centre for the Study of Globalisation and
+                Regionalisation. Recently, I have been accepted into the DFG’s Heisenberg Programme.
               </p>
               <p>
                 You can find a copy of my CV <a href="/cv/cv-florence-dafe.pdf">here</a>.
@@ -43,7 +45,7 @@ const IndexPage = () => {
           </div>
         </div>
       </article>
-      <Footer />
+      <Footer activePage="index" />
     </>
   );
 };
