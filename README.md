@@ -38,8 +38,10 @@ master branch. That connection lives in the Cloudflare dashboard (Workers & Page
 the project → Settings → Git), not in this repository, so there is no deploy workflow
 here to read. Custom domains are configured in the same project under Custom domains.
 
-Because nothing in the repo gates a push, `yarn typecheck` and `yarn build` are worth
-running locally before pushing to master.
+`yarn build` runs `tsc --noEmit` before `gatsby build`, so a type error fails the
+Cloudflare build and the previously deployed version stays live. This holds only while
+the project's build command is `yarn build` (Workers & Pages → the project → Settings →
+Build); pointing it straight at `gatsby build` would skip the check.
 
 The Node version used by the Cloudflare build comes from `.nvmrc`. Gatsby's `engines`
 field allows `>=18 <26`. Yarn does not need pinning there: `.yarnrc.yml` points at the
