@@ -40,3 +40,11 @@ here to read. Custom domains are configured in the same project under Custom dom
 
 Because nothing in the repo gates a push, `yarn typecheck` and `yarn build` are worth
 running locally before pushing to master.
+
+The Node version used by the Cloudflare build comes from `.nvmrc`. Gatsby's `engines`
+field allows `>=18 <26`. Yarn does not need pinning there: `.yarnrc.yml` points at the
+release committed under `.yarn/releases`, so the build uses that version regardless of
+what the build image provides.
+
+The canonical hostname is `https://www.florencedafe.com`, which is what `siteUrl` in
+`gatsby-config.ts` refers to.
