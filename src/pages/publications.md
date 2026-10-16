@@ -1,4 +1,6 @@
 ## Journal articles
+2026\. [Central bank digital currencies, financial subordination and the quest for infrastructural autonomy: the introduction of the eNaira in Nigeria](https://www.tandfonline.com/doi/full/10.1080/13563467.2026.2737141). New Political Economy, online first.
+
 2026\. [The political power of digital multinational companies in an era of geo-technological competition](https://doi.org/10.1177/10245294261426516). Review of International Political Economy, 1–22 (with E.C. Heldt).
 
 2026\. [Digital empowerment: Banks and the rise of FinTechs in Kenya and Nigeria](https://doi.org/10.1177/10245294261426516). Competition & Change, 0(0) (with R. Upadhyaya).
